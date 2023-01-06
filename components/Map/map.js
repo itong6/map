@@ -11,7 +11,7 @@ import {
   Polyline,
   CircleMarker,
 } from "react-leaflet";
-import { polyline } from "leaflet";
+
 
 export default function Map() {
 

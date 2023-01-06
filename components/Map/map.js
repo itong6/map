@@ -222,7 +222,7 @@ export default function Map() {
         pathOptions={redOption}
         radius={20}
       >
-        <Popup>You've reached your destination</Popup>
+
       </CircleMarker>
 
       <CircleMarker
@@ -230,7 +230,7 @@ export default function Map() {
         pathOptions={redOption}
         radius={20}
       >
-        <Popup>You've reached your destination</Popup>
+
       </CircleMarker>
 
       <CircleMarker

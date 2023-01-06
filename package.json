@@ -18,7 +18,14 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.1.1",
     "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1"
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
